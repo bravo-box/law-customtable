@@ -31,8 +31,8 @@ mkdir -p "$TARGET_DIR"
 cat > "$TARGET_DIR/main.bicepparam" <<EOF
 using '../../bicep/main.bicep'
 
-param workspaceName = 'CHANGE_ME-law'
-param location = 'eastus'
+param workspaceName = 'bravo-box-law'
+param location = 'usgovvirginia'
 param tableName = '$TABLE_NAME'
 param columns = [
   { name: 'TimeGenerated', type: 'datetime' }
