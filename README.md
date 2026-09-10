@@ -1,4 +1,4 @@
-# law-customtable
+# Log Analytics Workspace Custom Table
 
 Repeatable Bicep + scripts to create a Log Analytics **custom table**, a
 **Data Collection Endpoint (DCE)**, and a **Data Collection Rule (DCR)** for
