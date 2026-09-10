@@ -32,7 +32,7 @@ cat > "$TARGET_DIR/main.bicepparam" <<EOF
 using '../../bicep/main.bicep'
 
 param workspaceName = ''
-param location = 'usgovvirginia'
+param location = ''
 param tableName = '$TABLE_NAME'
 param columns = [
   { name: 'TimeGenerated', type: 'datetime' }
